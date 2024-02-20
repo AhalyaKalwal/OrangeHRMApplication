@@ -1,0 +1,38 @@
+package com.OrangeHRMApplicationPagesTest;
+
+import org.testng.annotations.Test;
+
+import com.BaseTest.BaseTest;
+import com.OrangeHRMApplicationPages.LogInPage;
+
+public class LogInPageTest extends BaseTest{
+	@Test(priority=1,description="Validating orangehrm application loginPannel Text")
+	public void orangeHRMApplicationLogInPage_logInPannelTextValidationTest()
+	{
+		LogInPage loginpage=new LogInPage();
+		loginpage.orangeHRMApplicationLogInPage_logInPannelTextValidation();
+		
+	}
+
+	@Test(priority=2,description="Validating orangeHRM Application loginpage Logo ")
+	public void orangeHRMApplicationLogInPage_logoValidationTest()
+	{
+		LogInPage loginpage=new LogInPage();
+		loginpage.orangeHRMApplicationLogInPage_logoValidation();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

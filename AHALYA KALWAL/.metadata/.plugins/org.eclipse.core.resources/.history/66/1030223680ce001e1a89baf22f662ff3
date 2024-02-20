@@ -1,0 +1,30 @@
+package com.StepDefination;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class RediffApplicationUserDefinedMethod {
+
+	@Given("User should open Browser in the System")
+	public void user_should_open_browser_in_the_system() {
+		
+		
+	   
+	}
+
+	@When("User enters Rediff Application URL Address")
+	public void user_enters_rediff_application_url_address() {
+	   
+	}
+
+	@Then("User should be navigated to Rediff Application LogIn WebPage")
+	public void user_should_be_navigated_to_rediff_application_log_in_web_page() {
+	   
+	}
+
+	@Then("User should close the Rediff Application along with the browser")
+	public void user_should_close_the_rediff_application_along_with_the_browser() {
+	    
+	}
+}

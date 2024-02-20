@@ -1,0 +1,22 @@
+<suite name ="OrangeHRMApplication" parallel="tests">
+
+<test name = "Logintest">
+<classes>
+<class name="com.OrangeHRMApplication.LoginFunctionality"/>
+</classes>
+</test>
+
+ 
+   <test name="AddEmployeeTest">
+        <classes>
+           <class name="com.OrangeHRMApplication.AddEmployee"/>
+        </classes>
+   </test>
+   
+   <test name="EmployeeListTest">
+        <classes>
+           <class name="com.OrangeHRMApplication.EmployeeList"/>
+        </classes>
+   </test>
+   
+</suite>

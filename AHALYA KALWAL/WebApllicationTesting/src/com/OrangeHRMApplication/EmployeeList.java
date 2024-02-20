@@ -1,0 +1,113 @@
+package com.OrangeHRMApplication;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.List;
+import java.util.Properties;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Test;
+
+public class EmployeeList extends AddEmployee {
+	
+	FileInputStream loginTestDataFile;
+	XSSFWorkbook workbook;
+	XSSFSheet logintestdataSheet;
+	Row rowtestdata;
+	  Cell testRowOfCell;
+	@Test(priority=3,description="Validating PIM MouseHoverOperation for Employee List")
+	public void pim_MouseHover()
+	{
+	//	<a href="/orangehrm-4.2.0.1/symfony/web/index.php/pim/viewPimModule" id="menu_pim_viewPimModule" class="firstLevelMenu"><b>PIM</b></a>
+		
+		By pimProperty=By.id("menu_pim_viewPimModule");
+	WebElement	pim=driver.findElement(pimProperty);
+		
+		
+		Actions mousehoveroperation=new Actions(driver);
+		mousehoveroperation.moveToElement(pim).build().perform();
+		
+		//<a href="/orangehrm-4.2.0.1/symfony/web/index.php/pim/viewEmployeeList/reset/1" id="menu_pim_viewEmployeeList">Employee List</a>
+		
+	By	employeelistProperty=By.id("menu_pim_viewEmployeeList");
+	WebElement  employeelist=driver.findElement(employeelistProperty);
+	employeelist.click(); 
+	
+	}
+@Test(priority=4,description="Validating employee List webtabledata")	
+public void webtabledata() throws IOException, InterruptedException
+{
+	///html/body/div[1]/div[3]/div[2]/div/form/div[4]/table   
+	// /html/body/div[1]/div[3]/div[2]/div/form/div[4]/table/tbody
+	
+
+
+    // Locate the web table element
+    By webTableProperty = By.xpath("/html/body/div[1]/div[3]/div[2]/div/form/div[4]/table");
+    WebElement webTableData = driver.findElement(webTableProperty);
+
+    // Read data from the Excel file
+    FileInputStream testDataFile = new FileInputStream("./src/com/Excelsheet/OHRM_EmployeeList.xlsx");
+    XSSFWorkbook workbook = new XSSFWorkbook(testDataFile);
+    XSSFSheet testDataSheet = workbook.getSheet("OHRM");
+
+    // Identify rows in the table
+    By rowDataProperty = By.tagName("tr");
+    List<WebElement> rowData = webTableData.findElements(rowDataProperty);
+
+    for (int rowIndex = 1; rowIndex < rowData.size(); rowIndex++) {
+        WebElement row = rowData.get(rowIndex);
+      Row rows = testDataSheet.createRow(rowIndex);
+
+        // Identify cells in each row
+   	 
+    	By  rowofcelldataProperty=By.tagName("td");
+    	List<WebElement>rowofcelldata=row.findElements(rowofcelldataProperty);
+
+        
+        for(int rowofcell=0;rowofcell<rowofcelldata.size();rowofcell++)
+    	{
+    		WebElement cell=rowofcelldata.get(rowofcell);
+    	    String	data=cell.getText();
+    	    System.out.println(data+" | ");
+    	    Cell celldata=rows.createCell(rowofcell);
+    	   celldata.setCellValue(data);
+
+    		
+    	}
+        
+    }
+
+    // Write the data to the Excel file
+    FileOutputStream testOutputFile = new FileOutputStream("./src/com/orangehrmexcelResultsfile/OHRM_Employeelist.xlsx");
+    workbook.write(testOutputFile);
+    
+ 
+
+//Automate Welcome Admin
+    FileInputStream	propertiesFile = new FileInputStream("./src/com/Config/OrangeHRMApplication.properties");
+
+	Properties properties = new Properties();
+	properties.load(propertiesFile);
+By WelcomeAdminLocator = By.partialLinkText(properties.getProperty("orangeHRMHomePageWelcomeAdminProperty"));
+WebElement WelcomeAdmin = driver.findElement(WelcomeAdminLocator);
+WelcomeAdmin.click();
+
+
+Thread.sleep(5000);
+
+
+By LogoutLocator = By.linkText(properties.getProperty("orangeHRMHomePageLogOutProperty"));
+WebElement Logout = driver.findElement(LogoutLocator);
+Logout.click();
+
+
+}
+}

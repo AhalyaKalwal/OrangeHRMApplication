@@ -1,0 +1,85 @@
+package com.OrangeHRMApplication;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Test;
+
+public class AddEmployee extends BaseTest {
+
+	FileInputStream loginTestDataFile;
+	XSSFWorkbook workbook;
+	XSSFSheet logintestdataSheet;
+	Row rowtestdata;
+	@Test(priority = 2)
+	public void pimTest() {
+		By pimProperty = By.id("menu_pim_viewPimModule");
+		WebElement pim = driver.findElement(pimProperty);
+
+		Actions mouseHoverOperation = new Actions(driver);
+		mouseHoverOperation.moveToElement(pim).build().perform();
+	}
+
+	@Test(priority = 3)
+	public void addEmployeeTest() throws IOException {
+		By AddEmployeeProperty = By.linkText("Add Employee");
+		WebElement AddEmployee = driver.findElement(AddEmployeeProperty);
+		AddEmployee.click();
+
+
+		/*FileInputStream loginTestDataFile = new FileInputStream("./src/com/orangehrmexcelResultsfile/AddEmployeeMultipleTestDataResult.xlsx");
+			XSSFWorkbook workbook = new XSSFWorkbook(loginTestDataFile);
+			XSSFSheet logintestdataSheet = workbook.getSheet("PIM2");
+	Row rowtestdata = logintestdataSheet.getRow(2);
+		 */
+		// <label for="Full_Name" class="hasTopFieldHelp">Full Name</label>
+		Cell FullNamecell = rowtestdata.getCell(11);
+		String expectedpersonaldetailsTestData = FullNamecell.getStringCellValue();// Getting personal details
+		// String Expected_personaldetailstextName=personaldetailsTestData;
+		System.out.println(" The Expected Text of the OrangeHRM Application personal Details Page is :- "
+				+ expectedpersonaldetailsTestData);
+		// WebElement headingElement1 =
+		// driver.findElement(By.xpath("//h1[text()='Personal Details']"));
+		// /html/body/div[1]/div[3]/div/div[2]/form/fieldset/ol/li[1]/label
+		// By fullnameproperty =By.className("hasTopFieldHelp");
+		By fullnameproperty = By.xpath("/html/body/div[1]/div[3]/div/div[2]/form/fieldset/ol/li[1]/label");
+		WebElement fullnametext = driver.findElement(fullnameproperty);
+		String actual_personaldetailstext = fullnametext.getText();
+		System.out.println(actual_personaldetailstext);
+		System.out.println(" The Actual Text of the OrangeHRM Application personal Details Page is :- "
+				+ actual_personaldetailstext);
+
+		Cell testRowOfCell;
+		if (actual_personaldetailstext.contains(expectedpersonaldetailsTestData)) {
+
+			System.out.println(" Successfully Navigated to OrangeHRM Application personal Details Page - PASS ");
+			testRowOfCell = rowtestdata.createCell(12);
+			testRowOfCell.setCellValue(actual_personaldetailstext);
+			testRowOfCell = rowtestdata.createCell(13);
+			testRowOfCell
+			.setCellValue("Successfully Navigated to OrangeHRM Application personal Details  Page - PASS ");
+		} else {
+
+			System.out.println("Failed to navigate to orangehrm application personal Details page:- FAIL");
+			testRowOfCell = rowtestdata.createCell(12);
+			testRowOfCell.setCellValue("Not Matched");
+			testRowOfCell = rowtestdata.createCell(13);
+			testRowOfCell.setCellValue("Failed Navigated to OrangeHRM Application personal Details Page - Fail");
+		}
+		/*FileOutputStream testResultFile = new FileOutputStream(
+					"./src/com/orangehrmexcelResultsfile/AddEmployeeMultipleTestDataResult1.xlsx");
+			workbook.write(testResultFile);
+		 */
+	}
+
+
+
+
+}

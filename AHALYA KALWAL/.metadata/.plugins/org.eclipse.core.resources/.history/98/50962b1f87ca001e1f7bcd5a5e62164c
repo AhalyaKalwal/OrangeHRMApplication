@@ -1,0 +1,37 @@
+package com;
+
+public class DataTypeProgram {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	/*	float Var=100.345678f;
+		System.out.println(" the value of var is:-"+Var);
+		double Var1=200.123456789123456789;
+		System.out.println(" the value of var1 is :- "+Var1);
+		char Var2='a';
+		System.out.println(" the value of var2:-"+Var2);
+		int Var3='B';
+		System.out.println(" the value of var3:-"+Var3);
+		
+		*/
+		
+		int i=20;
+		int j=10;
+		/*System.out.println(i++);//    i=i+1 
+		System.out.println(i);
+		
+		System.out.println(i==j);
+		System.out.println(i!=j);
+		System.out.println(i<j);
+		System.out.println(i>j);
+		System.out.println(i<=j);
+		
+*/
+int k=i-- - -- i;
+System.out.println(k);
+		
+		
+	}
+
+}

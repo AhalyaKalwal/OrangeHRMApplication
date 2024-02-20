@@ -1,0 +1,33 @@
+package com.RadioButtonsTesting;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+
+import com.BaseTest.BaseTest;
+
+public class EchoEchoApplication_RadioButtonsTesting extends BaseTest
+{
+    @Test
+	public void group1RadioButtonsTesting()
+	{
+    	// <input type="radio" name="group1" value="Milk">
+       //  <input type="radio" name="group1" value="Butter" checked="">
+    //     <input type="radio" name="group1" value="Cheese">	
+    	
+    	
+     By	group1radiobuttonProperty=By.name("group1");
+  List<WebElement>group1radiobutton=driver.findElements(group1radiobuttonProperty);
+  
+       int  group1radiobuttoncount =group1radiobutton.size();
+       System.out.println("The number of radio button group1 are:-"+group1radiobuttoncount);
+    	
+    	
+    	
+    	
+	}
+	
+	
+}

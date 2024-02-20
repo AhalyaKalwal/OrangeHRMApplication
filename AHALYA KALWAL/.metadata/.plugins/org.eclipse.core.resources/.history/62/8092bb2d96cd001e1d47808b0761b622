@@ -1,0 +1,47 @@
+package com.OrangeHRMApplicationPages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import com.BaseTest.BaseTest;
+import com.sun.tools.sjavac.Log;
+
+public class LogInPage extends BaseTest{
+
+	//object Repository class
+	//<div id="logInPanelHeading">LOGIN Panel</div>
+	// 1. Identification of webelemnts
+	//2. performing operation on the web elements - Buisness logics
+	
+	public LogInPage() // constructor- when a class name is similar to the Method name
+	{
+		PageFactory.initElements(driver,this);
+	}
+	
+	// Identification of WebElements
+	@FindBy(id="logInPanelHeading")
+	WebElement logInPanelText;
+	
+	// peforming operation on the webelements 
+	public void orangeHRMApplicationLogInPage_logInPannelTextValidation()
+	{
+		String expected_OrangeHRMApplicationLogInPagelogInPannelText="LOGIN Panel";
+		Log.info(" The expected Text of Web Element login pannel text is-"+expected_OrangeHRMApplicationLogInPagelogInPannelText);
+		
+		String actual_OrangeHRMApplicationLogInPagelogInPannelText=logInPanelText.getText();
+		Log.info("The actual Text of Web Element login pannel text is-"+actual_OrangeHRMApplicationLogInPagelogInPannelText);
+		
+		if(actual_OrangeHRMApplicationLogInPagelogInPannelText.equals(expected_OrangeHRMApplicationLogInPagelogInPannelText))
+		{
+			Log.info("Login pannel text validation successful - PASS");
+		}
+		else
+		{
+			Log.info("Login pannel text validation not successful - FAIL");
+		}
+	
+	}
+	
+	
+}

@@ -1,0 +1,463 @@
+[main] INFO Log - *********** Chromebrowser launched successfully***************
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[TestNG-tests-1] INFO Log - *********** Chromebrowser launched successfully***************
+[TestNG-tests-3] INFO Log - *********** Chromebrowser launched successfully***************
+[TestNG-tests-2] INFO Log - *********** Chromebrowser launched successfully***************
+[TestNG-tests-1] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[TestNG-tests-2] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[TestNG-tests-3] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - *********** Chromebrowser launched successfully***************
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - *********** Chromebrowser launched successfully***************
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[TestNG-tests-2] INFO Log - *********** Chromebrowser launched successfully***************
+[TestNG-tests-1] INFO Log - *********** Chromebrowser launched successfully***************
+[TestNG-tests-3] INFO Log - *********** Chromebrowser launched successfully***************
+[TestNG-tests-1] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[TestNG-tests-2] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[TestNG-tests-3] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - *********** Chromebrowser launched successfully***************
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[TestNG-tests-2] INFO Log - *********** Chromebrowser launched successfully***************
+[TestNG-tests-3] INFO Log - *********** Chromebrowser launched successfully***************
+[TestNG-tests-1] INFO Log - *********** Chromebrowser launched successfully***************
+[TestNG-tests-1] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[TestNG-tests-2] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[TestNG-tests-3] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - *********** Chromebrowser launched successfully***************
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[TestNG-tests-1] INFO Log - *********** Chromebrowser launched successfully***************
+[TestNG-tests-3] INFO Log - *********** Chromebrowser launched successfully***************
+[TestNG-tests-2] INFO Log - *********** Chromebrowser launched successfully***************
+[TestNG-tests-1] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[TestNG-tests-2] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[TestNG-tests-3] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - *********** Chromebrowser launched successfully***************
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[TestNG-tests-3] INFO Log - *********** Chromebrowser launched successfully***************
+[TestNG-tests-2] INFO Log - *********** Chromebrowser launched successfully***************
+[TestNG-tests-1] INFO Log - *********** Chromebrowser launched successfully***************
+[TestNG-tests-1] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[TestNG-tests-2] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[TestNG-tests-3] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[TestNG-tests-1] INFO Log - *********** Chromebrowser launched successfully***************
+[TestNG-tests-2] INFO Log - *********** Chromebrowser launched successfully***************
+[TestNG-tests-3] INFO Log - *********** Chromebrowser launched successfully***************
+[TestNG-tests-1] INFO Log - The expected orangeHRM application login panel text is:-LOGIN Panel
+[TestNG-tests-3] INFO Log - The expected orangeHRM application login panel text is:-LOGIN Panel
+[TestNG-tests-2] INFO Log - The expected orangeHRM application login panel text is:-LOGIN Panel
+[TestNG-tests-1] INFO Log - The actual orangeHRM application login panel text is:-LOGIN Panel
+[TestNG-tests-3] INFO Log - The actual orangeHRM application login panel text is:-LOGIN Panel
+[TestNG-tests-2] INFO Log - The actual orangeHRM application login panel text is:-LOGIN Panel
+[TestNG-tests-1] INFO Log - Successfully navigated to orangehrm application login page text:-PASS
+[TestNG-tests-3] INFO Log - Successfully navigated to orangehrm application login page text:-PASS
+[TestNG-tests-2] INFO Log - Successfully navigated to orangehrm application login page text:-PASS
+[TestNG-tests-1] INFO Log - The expected orangehrm application welcome admin link is:-Admin
+[TestNG-tests-2] INFO Log - The expected orangehrm application welcome admin link is:-Admin
+[TestNG-tests-2] INFO Log - Welcome Admin
+[TestNG-tests-1] INFO Log - Welcome Admin
+[TestNG-tests-2] INFO Log - The actual orangehrm application welcome admin link is:-Welcome Admin
+[TestNG-tests-1] INFO Log - The actual orangehrm application welcome admin link is:-Welcome Admin
+[TestNG-tests-2] INFO Log - successfully matched with the welcome admin text:-PASS
+[TestNG-tests-1] INFO Log - successfully matched with the welcome admin text:-PASS
+[TestNG-tests-1] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[TestNG-tests-3] INFO Log - The expected orangehrm application welcome admin link is:-Admin
+[TestNG-tests-3] INFO Log - Welcome Admin
+[TestNG-tests-3] INFO Log - The actual orangehrm application welcome admin link is:-Welcome Admin
+[TestNG-tests-3] INFO Log - successfully matched with the welcome admin text:-PASS
+[TestNG-tests-2] INFO Log -  The Expected Text of the OrangeHRM Application personal Details Page is :- Full Name
+[TestNG-tests-2] INFO Log - Full Name
+[TestNG-tests-2] INFO Log -  The Actual Text of the OrangeHRM Application personal Details Page is :- Full Name
+[TestNG-tests-2] INFO Log -  Successfully Navigated to OrangeHRM Application personal Details Page - PASS 
+[TestNG-tests-2] INFO Log - Ahalya
+[TestNG-tests-2] INFO Log - successfully matched first name text:-PASS
+[TestNG-tests-2] INFO Log - Ram
+[TestNG-tests-2] INFO Log - successfully matched middle name text:-PASS
+[TestNG-tests-2] INFO Log - Kalwal
+[TestNG-tests-2] INFO Log - successfully matched last name text:-PASS
+[TestNG-tests-2] INFO Log - successfully matched employee Id:-PASS
+[TestNG-tests-2] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[TestNG-tests-3] INFO Log -  The Expected Text of the OrangeHRM Application personal Details Page is :- Full Name
+[TestNG-tests-3] INFO Log - Full Name
+[TestNG-tests-3] INFO Log -  The Actual Text of the OrangeHRM Application personal Details Page is :- Full Name
+[TestNG-tests-3] INFO Log -  Successfully Navigated to OrangeHRM Application personal Details Page - PASS 
+[TestNG-tests-3] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - ************* chrome browser along with orangehrm application closed successfully
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log -  The expected Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - ************* chrome browser along with orangehrm application closed successfully
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log -  The expected Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - The actual Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - Login pannel text validation successful - PASS
+[main] INFO Log - ************* chrome browser along with orangehrm application closed successfully
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log -  The expected Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - The actual Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - Login pannel text validation successful - PASS
+[main] INFO Log - ************* chrome browser along with orangehrm application closed successfully
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - ************* chrome browser along with orangehrm application closed successfully
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log -  The expected Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - The actual Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - Login pannel text validation successful - PASS
+[main] INFO Log - ************* chrome browser along with orangehrm application closed successfully
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - orangeHRM Application login page logo is found - PASS
+[main] INFO Log - ************* chrome browser along with orangehrm application closed successfully
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log -  The expected Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - The actual Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - Login pannel text validation successful - PASS
+[main] INFO Log - ************* chrome browser along with orangehrm application closed successfully
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - orangeHRM Application login page logo is found - PASS
+[main] INFO Log - ************* chrome browser along with orangehrm application closed successfully
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log -  The expected Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - The actual Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - Login pannel text validation successful - PASS
+[main] INFO Log - ************* chrome browser along with orangehrm application closed successfully
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - orangeHRM Application login page logo is found - PASS
+[main] INFO Log - ************* chrome browser along with orangehrm application closed successfully
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - ************* chrome browser along with orangehrm application closed successfully
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log -  The expected Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - The actual Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - Login pannel text validation successful - PASS
+[main] INFO Log - ************* chrome browser along with orangehrm application closed successfully
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - orangeHRM Application login page logo is found - PASS
+[main] INFO Log - ************* chrome browser along with orangehrm application closed successfully
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - ************* chrome browser along with orangehrm application closed successfully
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log -  The expected Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - The actual Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - Login pannel text validation successful - PASS
+[main] INFO Log - ************* chrome browser along with orangehrm application closed successfully
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - orangeHRM Application login page logo is found - PASS
+[main] INFO Log - ************* chrome browser along with orangehrm application closed successfully
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - ************* chrome browser along with orangehrm application closed successfully
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log -  The expected Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - The actual Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - Login pannel text validation successful - PASS
+[main] INFO Log - ************* chrome browser along with orangehrm application closed successfully*************
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - orangeHRM Application login page logo is found - PASS
+[main] INFO Log - ************* chrome browser along with orangehrm application closed successfully*************
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - ************* chrome browser along with orangehrm application closed successfully*************
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log -  The expected Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - The actual Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - Login pannel text validation successful - PASS
+[main] INFO Log - ************* chrome browser along with orangehrm application closed successfully*************
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - orangeHRM Application login page logo is found - PASS
+[main] INFO Log - ************* chrome browser along with orangehrm application closed successfully*************
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - ************* chrome browser along with orangehrm application closed successfully*************
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log -  The expected Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - The actual Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - Login pannel text validation successful - PASS
+[main] INFO Log - ************* chrome browser along with orangehrm application closed successfully*************
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - orangeHRM Application login page logo is found - PASS
+[main] INFO Log - ************* chrome browser along with orangehrm application closed successfully*************
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - ************* chrome browser along with orangehrm application closed successfully*************
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log -  The expected Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - The actual Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - Login pannel text validation successful - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - orangeHRM Application login page logo is found - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log -  The expected Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - The actual Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - Login pannel text validation successful - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - orangeHRM Application login page logo is found - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log -  The expected Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - The actual Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - Login pannel text validation successful - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - orangeHRM Application login page logo is found - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log -  The expected Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - The actual Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - Login pannel text validation successful - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - orangeHRM Application login page logo is found - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log -  The expected Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - The actual Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - Login pannel text validation successful - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - orangeHRM Application login page logo is found - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log -  The expected Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - The actual Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - Login pannel text validation successful - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - orangeHRM Application login page logo is found - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log -  The expected Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - The actual Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - Login pannel text validation successful - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - orangeHRM Application login page logo is found - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log -  The expected Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - The actual Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - Login pannel text validation successful - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - orangeHRM Application login page logo is found - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log -  The expected Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - The actual Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - Login pannel text validation successful - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - orangeHRM Application login page logo is found - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log -  The expected Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - The actual Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - Login pannel text validation successful - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - orangeHRM Application login page logo is found - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log -  The expected Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - The actual Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - Login pannel text validation successful - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - orangeHRM Application login page logo is found - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log -  The expected Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - The actual Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - Login pannel text validation successful - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - orangeHRM Application login page logo is found - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log -  The expected Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - The actual Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - Login pannel text validation successful - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - orangeHRM Application login page logo is found - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - username data successfully passed - PASS
+[main] INFO Log - password data successfully passed - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - username data successfully passed - PASS
+[main] INFO Log - password data successfully passed - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - username data successfully passed - PASS
+[main] INFO Log - password data successfully passed - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - username data successfully passed - PASS
+[main] INFO Log - password data successfully passed - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log -  The expected Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - The actual Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - Login pannel text validation successful - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - orangeHRM Application login page logo is found - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - username data successfully passed - PASS
+[main] INFO Log - password data successfully passed - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - username data successfully passed - PASS
+[main] INFO Log - password data successfully passed - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - username data successfully passed - PASS
+[main] INFO Log - password data successfully passed - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - username data successfully passed - PASS
+[main] INFO Log - password data successfully passed - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log -  The expected Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - The actual Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - Login pannel text validation successful - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - orangeHRM Application login page logo is found - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - username data successfully passed - PASS
+[main] INFO Log - password data successfully passed - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - username data successfully passed - PASS
+[main] INFO Log - password data successfully passed - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - username data successfully passed - PASS
+[main] INFO Log - password data successfully passed - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - username data successfully passed - PASS
+[main] INFO Log - password data successfully passed - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log -  The expected Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - The actual Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - Login pannel text validation successful - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - orangeHRM Application login page logo is found - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - username data successfully passed - PASS
+[main] INFO Log - password data successfully passed - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - username data successfully passed - PASS
+[main] INFO Log - password data successfully passed - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - username data successfully passed - PASS
+[main] INFO Log - password data successfully passed - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - username data successfully passed - PASS
+[main] INFO Log - password data successfully passed - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log -  The expected Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - The actual Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - Login pannel text validation successful - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - orangeHRM Application login page logo is found - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - username data successfully passed - PASS
+[main] INFO Log - password data successfully passed - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - username data successfully passed - PASS
+[main] INFO Log - password data successfully passed - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - username data successfully passed - PASS
+[main] INFO Log - password data successfully passed - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - username data successfully passed - PASS
+[main] INFO Log - password data successfully passed - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log -  The expected Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - The actual Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - Login pannel text validation successful - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - orangeHRM Application login page logo is found - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log -  The expected Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - The actual Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - Login pannel text validation successful - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - orangeHRM Application login page logo is found - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - username data successfully passed - PASS
+[main] INFO Log - password data successfully passed - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - username data successfully passed - PASS
+[main] INFO Log - password data successfully passed - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - username data successfully passed - PASS
+[main] INFO Log - password data successfully passed - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - username data successfully passed - PASS
+[main] INFO Log - password data successfully passed - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log -  The expected Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - The actual Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - Login pannel text validation successful - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - orangeHRM Application login page logo is found - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - username data successfully passed - PASS
+[main] INFO Log - password data successfully passed - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - username data successfully passed - PASS
+[main] INFO Log - password data successfully passed - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - username data successfully passed - PASS
+[main] INFO Log - password data successfully passed - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - username data successfully passed - PASS
+[main] INFO Log - password data successfully passed - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log -  The expected Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - The actual Text of Web Element login pannel text is-LOGIN Panel
+[main] INFO Log - Login pannel text validation successful - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - orangeHRM Application login page logo is found - PASS
+[main] INFO Log - ***********ChromeBrowser Launched successfully**********
+[main] INFO Log - username data successfully passed - PASS
+[main] INFO Log - password data successfully passed - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - username data successfully passed - PASS
+[main] INFO Log - password data successfully passed - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - username data successfully passed - PASS
+[main] INFO Log - password data successfully passed - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS
+[main] INFO Log - username data successfully passed - PASS
+[main] INFO Log - password data successfully passed - PASS
+[main] INFO Log - Navigated to OrangeHRM Application Home Page - PASS

@@ -1,0 +1,70 @@
+package com.OHRMAssignment;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Assignment_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String applicationUrlAddress="http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login";
+		System.setProperty("webdriver.chrome.driver", "./browserDriverFiles/chromedriver.exe");
+		ChromeDriver driver=new ChromeDriver();
+		
+		driver.get(applicationUrlAddress);
+		
+		
+		System.out.println("The Browser is successfully automated:-PASS");
+		
+		
+		//Validating Title
+		
+		String expected_OrangeHRMApplicationLoginPageTitle="OrangeHRM";
+		System.out.println("The expected orangeHRM Application login page title is :-"+expected_OrangeHRMApplicationLoginPageTitle);
+		
+		String actual_OrangeHRMApplicationLoginPageTitle=driver.getTitle();
+		System.out.println("The actual orangeHRM Application login page title is :-"+actual_OrangeHRMApplicationLoginPageTitle);
+		
+		if(actual_OrangeHRMApplicationLoginPageTitle.contains(expected_OrangeHRMApplicationLoginPageTitle))
+		{
+			System.out.println("succesfully navigated to login page Title-PASS");
+		}
+		else
+		{
+			System.out.println("Failed to navigate to login page Title-FAIL");
+		}
+		
+		//Validating URL
+		
+		String expected_OrangeHRMApplicationLoginPageURL="orangehrm-4.2.0.1";
+		System.out.println("The expected orangeHRM Application Loginpage URL is:-"+expected_OrangeHRMApplicationLoginPageURL);
+		
+		String actual_OrangeHRMApplicationLoginPageURL=driver.getCurrentUrl();
+		System.out.println("The actual orangeHRM Application Loginpage URL is:-"+actual_OrangeHRMApplicationLoginPageURL);
+		
+		
+		if(actual_OrangeHRMApplicationLoginPageURL.contains(expected_OrangeHRMApplicationLoginPageURL))
+		{
+			System.out.println("Successfully navigated to orangeHRM Application loginpage URL is:-PASS");
+		}
+		else
+		{
+			System.out.println("Failed to navigate to orangeHRM Application loginpage URL is:-FAIL");
+		}
+		
+		//Validating TEXT
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

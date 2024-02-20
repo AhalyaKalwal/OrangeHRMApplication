@@ -1,0 +1,130 @@
+package com.OrangeHRMApplication;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.List;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Test;
+
+public class EmployeeList extends AddEmployee {
+	
+	FileInputStream loginTestDataFile;
+	XSSFWorkbook workbook;
+	XSSFSheet logintestdataSheet;
+	Row rowtestdata;
+	  Cell testRowOfCell;
+	@Test(priority=3,description="Validating PIM MouseHoverOperation for Employee List")
+	public void pim_MouseHover()
+	{
+	//	<a href="/orangehrm-4.2.0.1/symfony/web/index.php/pim/viewPimModule" id="menu_pim_viewPimModule" class="firstLevelMenu"><b>PIM</b></a>
+		
+		By pimProperty=By.id("menu_pim_viewPimModule");
+	WebElement	pim=driver.findElement(pimProperty);
+		
+		
+		Actions mousehoveroperation=new Actions(driver);
+		mousehoveroperation.moveToElement(pim).build().perform();
+		
+		//<a href="/orangehrm-4.2.0.1/symfony/web/index.php/pim/viewEmployeeList/reset/1" id="menu_pim_viewEmployeeList">Employee List</a>
+		
+	By	employeelistProperty=By.id("menu_pim_viewEmployeeList");
+	WebElement  employeelist=driver.findElement(employeelistProperty);
+	employeelist.click();
+	}
+@Test(priority=4,description="Validating employee List webtabledata")	
+public void webtabledata() throws IOException, InterruptedException
+{
+	///html/body/div[1]/div[3]/div[2]/div/form/div[4]/table   
+	// /html/body/div[1]/div[3]/div[2]/div/form/div[4]/table/tbody
+	
+By	webtableProperty=By.xpath("/html/body/div[1]/div[3]/div[2]/div/form/div[4]/table/tbody");
+WebElement webtabledata=driver.findElement(webtableProperty);
+	
+	FileInputStream testdatafile=new FileInputStream("./src/com/Excelsheet/OHRM_EmployeeList.xlsx");
+	XSSFWorkbook workbook=new XSSFWorkbook(testdatafile);
+	XSSFSheet testdatasheet=workbook.getSheet("OHRM");
+	
+	//identify rows in the table  
+	By rowdataProperty=By.tagName("tr");         
+	List<WebElement>rowdata=webtabledata.findElements(rowdataProperty);
+	
+	for(int rowindex=0;rowindex<rowdata.size();rowindex++)
+	{
+	WebElement	row=rowdata.get(rowindex);
+ Row	rows =testdatasheet.createRow(rowindex);
+ 
+ 
+By  rowofcelldataProperty=By.tagName("td");
+List<WebElement>rowofcelldata=row.findElements(rowofcelldataProperty);
+
+for(int rowofcell=0;rowofcell<rowofcelldata.size();rowofcell++)
+{
+	WebElement cell=rowofcelldata.get(rowofcell);
+String	data=cell.getText();
+System.out.println(data);
+    Cell celldata=rows.createCell(rowofcell);
+    celldata.setCellValue(data);
+
+	
+}
+System.out.println(); 
+
+//FileOutputStream testoutputfile=new FileOutputStream("./src/com/orangehrmexcelResultsfile/OHRM_Employeelist.xlsx");
+//workbook.write(testoutputfile);
+	
+FileInputStream loginTestDataFile=new FileInputStream("./src/com/Excelsheet/PIM_MultipleTestData.xlsx");
+XSSFWorkbook workbook1=new XSSFWorkbook(loginTestDataFile);
+XSSFSheet logintestdataSheet=workbook1.getSheet("PIM2");
+	
+Cell welcomeAdmintestdatacell=rowtestdata.getCell(8);
+String welcomeAdmin= welcomeAdmintestdatacell.getStringCellValue();
+String   expected_welcomeAdmin=welcomeAdmin;
+  System.out.println("The expected orangehrm application welcome admin link is:-"+expected_welcomeAdmin);
+ By welcomeadminProperty=By.id("welcome");
+ WebElement welcomeadmin=driver.findElement(welcomeadminProperty);
+  welcomeadmin.click();
+	
+	Thread.sleep(2000);
+	
+	By logoutProperty=By.linkText("Logout");
+	WebElement logout=driver.findElement(logoutProperty);
+	logout.click();
+
+	Cell logInPanelTestDataCell=rowtestdata.getCell(29);
+   String  logInPanelTestData= logInPanelTestDataCell.getStringCellValue();//Getting loginpanel
+    
+String	 expected_OrangeHRMApplicationLoginPanel=logInPanelTestData;
+	System.out.println("The expected orangeHRM application login panel text is:-"+expected_OrangeHRMApplicationLoginPanel);
+	      //<div id="logInPanelHeading">LOGIN Panel</div>
+ By   loginpanelProperty=By.id("logInPanelHeading");
+   WebElement  loginpanelText=driver.findElement(loginpanelProperty);
+      
+   String  actual_OrangeHRMApplicationLoginPanel=loginpanelText.getText();
+    System.out.println("The actual orangeHRM application login panel text is:-"+actual_OrangeHRMApplicationLoginPanel);
+    if(actual_OrangeHRMApplicationLoginPanel.equals(expected_OrangeHRMApplicationLoginPanel))
+    {
+    System.out.println("Successfully navigated to orangehrm application login page after logout:-PASS");
+    Cell testRowOfCell=rowtestdata.createCell(1);
+    testRowOfCell=rowtestdata.createCell(30);
+    testRowOfCell.setCellValue("LOGIN Panel");
+    testRowOfCell=rowtestdata.createCell(31);
+    testRowOfCell.setCellValue("Successfully navigated to orangehrm application login page after logout :-PASS");
+    }
+    else
+    {
+    System.out.println("Failed to navigate to orangehrm application login page after logout:-FAIL");
+   	 testRowOfCell=rowtestdata.createCell(30);
+    testRowOfCell.setCellValue("Not Matched");
+    testRowOfCell=rowtestdata.createCell(31);
+    testRowOfCell.setCellValue("Failed to navigate to orangehrm application login page after logout:-FAIL");
+    }
+	
+}}}

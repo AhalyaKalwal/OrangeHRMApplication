@@ -1,0 +1,84 @@
+2024-02-15 16:40:05,157 - Log -INFO - *********** Chromebrowser launched successfully***************
+2024-02-15 16:40:27,324 - Log -INFO -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+2024-02-15 16:41:57,119 - Log -INFO - *********** Chromebrowser launched successfully***************
+2024-02-15 16:41:57,125 - Log -INFO - *********** Chromebrowser launched successfully***************
+2024-02-15 16:41:57,182 - Log -INFO - *********** Chromebrowser launched successfully***************
+2024-02-15 16:42:01,385 - Log -INFO -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+2024-02-15 16:42:18,755 - Log -INFO -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+2024-02-15 16:42:31,776 - Log -INFO -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+2024-02-15 16:45:14,288 - Log -INFO - *********** Chromebrowser launched successfully***************
+2024-02-15 16:45:36,194 - Log -INFO -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+2024-02-15 16:45:57,900 - Log -INFO - *********** Chromebrowser launched successfully***************
+2024-02-15 16:46:31,618 - Log -INFO -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+2024-02-15 16:47:01,329 - Log -INFO - *********** Chromebrowser launched successfully***************
+2024-02-15 16:47:01,324 - Log -INFO - *********** Chromebrowser launched successfully***************
+2024-02-15 16:47:01,336 - Log -INFO - *********** Chromebrowser launched successfully***************
+2024-02-15 16:47:05,472 - Log -INFO -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+2024-02-15 16:47:23,005 - Log -INFO -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+2024-02-15 16:47:36,203 - Log -INFO -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+2024-02-15 16:52:10,091 - Log -INFO - *********** Chromebrowser launched successfully***************
+2024-02-15 16:52:32,116 - Log -INFO -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+2024-02-15 16:52:56,185 - Log -INFO - *********** Chromebrowser launched successfully***************
+2024-02-15 16:52:56,175 - Log -INFO - *********** Chromebrowser launched successfully***************
+2024-02-15 16:52:56,195 - Log -INFO - *********** Chromebrowser launched successfully***************
+2024-02-15 16:53:00,520 - Log -INFO -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+2024-02-15 16:53:22,207 - Log -INFO -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+2024-02-15 16:53:30,526 - Log -INFO -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+2024-02-15 16:57:55,696 - Log -INFO - *********** Chromebrowser launched successfully***************
+2024-02-15 16:58:17,472 - Log -INFO -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+2024-02-15 17:42:25,003 - Log -INFO - *********** Chromebrowser launched successfully***************
+2024-02-15 17:42:25,013 - Log -INFO - *********** Chromebrowser launched successfully***************
+2024-02-15 17:42:25,152 - Log -INFO - *********** Chromebrowser launched successfully***************
+2024-02-15 17:42:29,994 - Log -INFO -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+2024-02-15 17:42:47,534 - Log -INFO -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+2024-02-15 17:43:00,818 - Log -INFO -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+2024-02-15 17:50:42,138 - Log -INFO - *********** Chromebrowser launched successfully***************
+2024-02-15 17:51:03,855 - Log -INFO -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+2024-02-15 17:51:36,979 - Log -INFO - *********** Chromebrowser launched successfully***************
+2024-02-15 17:51:36,969 - Log -INFO - *********** Chromebrowser launched successfully***************
+2024-02-15 17:51:36,984 - Log -INFO - *********** Chromebrowser launched successfully***************
+2024-02-15 17:51:41,676 - Log -INFO -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+2024-02-15 17:52:00,313 - Log -INFO -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+2024-02-15 17:52:12,213 - Log -INFO -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+2024-02-15 18:05:07,040 - Log -INFO - *********** Chromebrowser launched successfully***************
+2024-02-15 18:05:07,044 - Log -INFO - *********** Chromebrowser launched successfully***************
+2024-02-15 18:05:07,134 - Log -INFO - *********** Chromebrowser launched successfully***************
+2024-02-15 18:05:08,759 - Log -INFO - The expected orangeHRM application login panel text is:-LOGIN Panel
+2024-02-15 18:05:08,754 - Log -INFO - The expected orangeHRM application login panel text is:-LOGIN Panel
+2024-02-15 18:05:08,763 - Log -INFO - The expected orangeHRM application login panel text is:-LOGIN Panel
+2024-02-15 18:05:08,822 - Log -INFO - The actual orangeHRM application login panel text is:-LOGIN Panel
+2024-02-15 18:05:08,818 - Log -INFO - The actual orangeHRM application login panel text is:-LOGIN Panel
+2024-02-15 18:05:08,826 - Log -INFO - The actual orangeHRM application login panel text is:-LOGIN Panel
+2024-02-15 18:05:08,833 - Log -INFO - Successfully navigated to orangehrm application login page text:-PASS
+2024-02-15 18:05:08,839 - Log -INFO - Successfully navigated to orangehrm application login page text:-PASS
+2024-02-15 18:05:08,843 - Log -INFO - Successfully navigated to orangehrm application login page text:-PASS
+2024-02-15 18:05:11,042 - Log -INFO - The expected orangehrm application welcome admin link is:-Admin
+2024-02-15 18:05:11,050 - Log -INFO - The expected orangehrm application welcome admin link is:-Admin
+2024-02-15 18:05:11,550 - Log -INFO - Welcome Admin
+2024-02-15 18:05:11,556 - Log -INFO - Welcome Admin
+2024-02-15 18:05:11,563 - Log -INFO - The actual orangehrm application welcome admin link is:-Welcome Admin
+2024-02-15 18:05:11,566 - Log -INFO - The actual orangehrm application welcome admin link is:-Welcome Admin
+2024-02-15 18:05:11,572 - Log -INFO - successfully matched with the welcome admin text:-PASS
+2024-02-15 18:05:11,576 - Log -INFO - successfully matched with the welcome admin text:-PASS
+2024-02-15 18:05:12,317 - Log -INFO -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+2024-02-15 18:05:13,231 - Log -INFO - The expected orangehrm application welcome admin link is:-Admin
+2024-02-15 18:05:13,352 - Log -INFO - Welcome Admin
+2024-02-15 18:05:13,356 - Log -INFO - The actual orangehrm application welcome admin link is:-Welcome Admin
+2024-02-15 18:05:13,360 - Log -INFO - successfully matched with the welcome admin text:-PASS
+2024-02-15 18:05:29,845 - Log -INFO -  The Expected Text of the OrangeHRM Application personal Details Page is :- Full Name
+2024-02-15 18:05:29,879 - Log -INFO - Full Name
+2024-02-15 18:05:29,883 - Log -INFO -  The Actual Text of the OrangeHRM Application personal Details Page is :- Full Name
+2024-02-15 18:05:29,887 - Log -INFO -  Successfully Navigated to OrangeHRM Application personal Details Page - PASS 
+2024-02-15 18:05:29,988 - Log -INFO - Ahalya
+2024-02-15 18:05:29,993 - Log -INFO - successfully matched first name text:-PASS
+2024-02-15 18:05:30,037 - Log -INFO - Ram
+2024-02-15 18:05:30,042 - Log -INFO - successfully matched middle name text:-PASS
+2024-02-15 18:05:30,080 - Log -INFO - Kalwal
+2024-02-15 18:05:30,084 - Log -INFO - successfully matched last name text:-PASS
+2024-02-15 18:05:30,142 - Log -INFO - successfully matched employee Id:-PASS
+2024-02-15 18:05:30,850 - Log -INFO -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+2024-02-15 18:05:31,266 - Log -INFO -  The Expected Text of the OrangeHRM Application personal Details Page is :- Full Name
+2024-02-15 18:05:31,294 - Log -INFO - Full Name
+2024-02-15 18:05:31,298 - Log -INFO -  The Actual Text of the OrangeHRM Application personal Details Page is :- Full Name
+2024-02-15 18:05:31,303 - Log -INFO -  Successfully Navigated to OrangeHRM Application personal Details Page - PASS 
+2024-02-15 18:05:44,392 - Log -INFO -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
